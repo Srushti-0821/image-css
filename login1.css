@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+.box{
+    height: 100vh;
+    background-image: url(./image/5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 49% 100%, 50% 100%, 0% 50%);
+    text-align: center;
+}
+
+.main {
+    padding-top: 200px;
+    
+}
+
+.main a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.d{
+    color: white;
+}
+/* .image{
+    width: 300px;
+    border: solid 2px white;
+    margin: 0 auto;
+    background-color: rgba(240, 233, 233, 0.384);
+    box-shadow: 0px 0px 10px 10px black;
+    padding: 30px;
+    
+} */
+
+input{
+    border: 23;
+}
+
+.btn{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(201, 65, 65);
+    color: white;
+    /* border: 0; */
+    
+}
+
+.bt{
+    width: 10%;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.438); 
+    border: 10 black;
+}
